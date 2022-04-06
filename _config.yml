@@ -56,7 +56,7 @@ google_site_verification: 'xjxooCYdlmO_XXlGQcxEg5MLuZfKGTuA4GhChqFxBZo'         
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id: 'G-J9DD336B3H'                # fill in your Google Analytics ID
+  id: G-J9DD336B3H                # fill in your Google Analytics ID
   # Google Analytics pageviews report settings
   pv:
     enabled: false
