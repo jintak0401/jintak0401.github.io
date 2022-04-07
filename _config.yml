@@ -29,7 +29,7 @@ description: >-                        # used by seo meta and the atom feed
   개발하면서 겪은 어려움과 깨달음을 공유하는 블로그입니다.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://jintak0401.github.io'
+url: https://jintak0401.github.io/
 
 github:
   username: jintak0401             # change to your github username
@@ -44,7 +44,7 @@ social:
   email: jintak0401@naver.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-#    - https://twitter.com/username      # change to your twitter homepage
+    # - https://twitter.com/username     
     - https://github.com/jintak0401       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
@@ -56,13 +56,11 @@ google_site_verification: 'xjxooCYdlmO_XXlGQcxEg5MLuZfKGTuA4GhChqFxBZo'         
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id: G-J9DD336B3H                # fill in your Google Analytics ID
+  id: "G-J9DD336B3H"               # fill in your Google Analytics ID
   # Google Analytics pageviews report settings
   pv:
-    enabled: false
     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
     cache_path:       # the local PV cache data, friendly to visitors from GFW region
-    cache: false
 
 # Prefer color scheme setting.
 #
