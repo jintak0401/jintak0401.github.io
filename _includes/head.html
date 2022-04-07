@@ -113,4 +113,10 @@
   {% unless site.theme_mode %}
     {% include mode-toggle.html %}
   {% endunless %}
+
+  <!-- GA -->
+<!--  js-selector.html 에서 여기로 옮김-->
+  {% if site.google_analytics.id != empty and site.google_analytics.id %}
+    {% include google-analytics.html %}
+  {% endif %}
 </head>
