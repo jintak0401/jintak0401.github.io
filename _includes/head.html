@@ -116,7 +116,15 @@
 
   <!-- GA -->
 <!--  js-selector.html 에서 여기로 옮김-->
-  {% if site.google_analytics.id != empty and site.google_analytics.id %}
-    {% include google-analytics.html %}
-  {% endif %}
+
+  <script async="true" src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics.id }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+
+    gtag('js', new Date());
+    gtag('config', '{{ site.google_analytics.ua_id }}');
+    gtag('config', '{{ site.google_analytics.id }}');
+  </script>
+
 </head>
