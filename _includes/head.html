@@ -3,15 +3,6 @@
 -->
 
 <head>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-L4LVDCSYMT"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-L4LVDCSYMT');
-    gtag('config', 'UA-225228108-1');
-  </script>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -125,6 +116,7 @@
 
   <!-- GA -->
 <!--  js-selector.html 에서 여기로 옮김-->
-
-
+  {% if site.google_analytics.id != empty and site.google_analytics.id %}
+    {% include google-analytics.html %}
+  {% endif %}
 </head>
