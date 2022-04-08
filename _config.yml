@@ -55,10 +55,12 @@ google_site_verification: 'xjxooCYdlmO_XXlGQcxEg5MLuZfKGTuA4GhChqFxBZo'         
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
+google_tag_manager:
+  id: 'GTM-MLH55TV'
+
 google_analytics:
   id: "G-L4LVDCSYMT"               # fill in your Google Analytics ID
-  ua_id: "UA-225228108-1"
-  tag_manager_id: "GTM-MLH55TV"
+  # ua_id: "UA-225228108-1"
   # Google Analytics pageviews report settings
   pv:
     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
