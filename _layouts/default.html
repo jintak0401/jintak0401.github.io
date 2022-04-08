@@ -21,7 +21,11 @@ layout: compress
 
   <body data-spy="scroll" data-target="#toc" data-topbar-visible="true">
 
-    {% include sidebar.html %}
+  {% if site.google_analytics.tag_manager_id != empty and site.google_analytics.tag_manager_id %}
+    {% include google-tag-manager-body.html %}
+  {% endif %}
+
+  {% include sidebar.html %}
 
     {% include topbar.html %}
 

@@ -3,6 +3,9 @@
 -->
 
 <head>
+  {% if site.google_analytics.tag_manager_id != empty and site.google_analytics.tag_manager_id %}
+    {% include google-tag-manager-head.html %}
+  {% endif %}
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
