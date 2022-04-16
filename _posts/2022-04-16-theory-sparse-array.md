@@ -4,7 +4,7 @@ author: HashTable
 categories: [알고리즘, 이론]
 tags: [알고리즘, 희소 배열, 자료구조]
 date: 2022-04-16 15:24:00 +0900
-last_modified_at: 2022-04-16 15:57:00 +0900
+last_modified_at: 2022-04-16 16:00:00 +0900
 img_path: /blog-assets/algorithm/sparse-table
 image:
   path: title.svg
@@ -24,7 +24,7 @@ math: true
 ## 📃 **희소 배열 알고리즘**
 
 ### **그냥 구하면 안돼?**
-M 개의 노드들에 대해 N 번 이동 후 위치를 묻는다고 해봅시다. 그냥 구하게된다면 이 때의 시간복잡도는
+N 개의 노드들에 대해 M 번 이동 후 위치를 묻는다고 해봅시다. 그냥 구하게된다면 이 때의 시간복잡도는
 $O(N M)$일 것입니다. 만약 N 과 M 이 100,000이라면 N*M = 100억입니다. 그냥 구하기엔 너무 비효율적이죠.
 
 ---
