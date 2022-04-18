@@ -1,0 +1,7 @@
+User-agent: *
+
+Disallow: /norobots/
+
+Sitemap: https://jintak0401.github.io/sitemap.xml
+
+#DaumWebMasterTool:20b5bd89fc1454b3bcf224397539f3e1946aa8951f5bb0865c8c8294f2227288:V7Vg217qnxD7uI4LOhvkkw==
